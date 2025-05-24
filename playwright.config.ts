@@ -14,7 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   timeout: 60000, // 30 วินาทีต่อ test
   // globalSetup: require.resolve('./global-setup'),
-  testDir: './demo_dplus',
+  testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */

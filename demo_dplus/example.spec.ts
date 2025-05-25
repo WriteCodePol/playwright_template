@@ -16,7 +16,7 @@ test('test2', async ({ page }) => {
   await page.locator('input[type="text"]').fill('671034');
   await page.locator('input[type="text"]').press('Tab');
   await page.locator('input[type="password"]').click();
-  await page.locator('input[type="password"]').fill('111111111111');
+  await page.locator('input[type="password"]').fill('Js0294511270');
 });
 
 

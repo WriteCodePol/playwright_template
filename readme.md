@@ -17,3 +17,6 @@
 ## npx playwright test /tests/example.spec.ts --reporter=html
 คำสั่ง รัน Script โดยแสดงผ่าน UI
 ## npx playwright test /tests/example.spec.ts  --ui
+
+
+## npx playwright test --project=tests-project --reporter=html
